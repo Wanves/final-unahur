@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="registro.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Responsive</title>
+</head>
+<body>
+    
+    <nav class="menu">
+        <label class="logo" for="">Show Cinema<img src="/img-menu/4.webp" class="img-logo" alt=""></label>
+        
+        <ul class="menu_items" id="otroModo">
+            <li class="active"><a href="index.html">Inicio</a></li>
+            <li><a href="cartelera2.2.html">Cartelera</a></li>
+            <li><a href="#">Registro-Novedades</a></li>    
+        </ul>
+        <span class="btn_menu" onclick="showmenu()">
+            <i class="fa fa-bars"></i>
+        </span>    
+    </nav>
+
+    <!-- #----------------------------------------------------# -->    
+    <header class="header">
+        
+        <div><img class="img-header" src="/imagenes/7.gif" alt="minions"></div>
+        <div><img class="img-header" src="/imagenes/8.gif" alt="conteo-cine"></div>
+        <div><img class="img-header" src="/imagenes/6.gif" alt="minios"></div>
+        
+    </header>
+<!-- #----------------------------------------------------# -->
+</section>
+
+<div class="contenedor">
+
+    <div class="container">
+        <h3 class="h3">Registrate para recibir novedades</h3>
+        <div class="buttons">
+            <button class="cinta-btn">
+                🎞️
+                <span>Show Cinema</span>
+            </button>
+            <button class="camara-btn">
+                📽️
+            </button>
+                
+        </div>
+        <div class="separator">
+            <hr>
+            <span>O...</span>
+            <hr>
+        </div>
+        <form action="" method="">
+            <div class="section-input">
+                <div class="input-group">
+                    <label  for="nombre">
+                        <span>Nombre y Apellido </span>
+                        <input id="name" type="text" name="name" placeholder="Nombre-Apellido" required>
+                    </label>
+                    <label  for="username">
+                        <span>Nombre de usuario</span>
+                        <input id='username' type="text" usere='username' placeholder='Usuario' required>
+                    </label>
+                </div>
+                <label for="email">
+                    <span>Email</span>
+                    <input id='email' type="text" usere='email' placeholder='email' required>
+                </label>
+                <label for="password">
+                    <span>Password</span>
+                    <input id=password placeholder='6+ caracteres'type="password" usere='password' placeholder='password' required>
+                </label>
+                <label class="checkbox1" for="checkbox">
+                    <input class="checkbox" type="checkbox" id="checkbox" placeholder="checkbox" required>
+                    <span>Acepto las condiciones y el aviso legal.</span>
+                </label>
+                <button class="submit" type="submit">Crear cuenta</button>
+            </div>
+        </form>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+    <script src="/js/menu.js"></script>
+    <script src="https://kit.fontawesome.com/a478c7ab72.js" crossorigin="anonymous"></script>
+</body>
+</html>

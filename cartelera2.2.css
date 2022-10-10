@@ -9,8 +9,12 @@
 
 body{
     /* background-color: #342d50; */
-    background-image: url(/imagenes/abstract-colorful-fun-background-vector.jpg);
+    background-image: url(/imagenes/abstract.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .menu{
     background-color:indigo;
@@ -127,13 +131,13 @@ ul.show{
         background: #1e0233;
         top: -100vh;
         text-align: center;
-        transition: all .4s;
+        transition:all .7s;
         flex-direction: column;
-        -webkit-transition: all .4s;
-        -moz-transition: all .4s;
-        -ms-transition: all .4s;
-        -o-transition: all .4s;
-    }
+        -webkit-transition:all .7s;
+        -moz-transition:all .7s;
+        -ms-transition:all .7s;
+        -o-transition:all .7s;
+}
     .menu_items li{
         margin: 30px 0 0 0 ;
         line-height: 30px;
